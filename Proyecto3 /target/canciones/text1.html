@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title> Reporte </title>
+        <style>
+        body{
+            background-color: rgb(31, 27, 42);
+            text-align: center;
+        }
+        h1{
+            font-family: Verdana, Geneva, sans-serif;
+            color:rgb(246, 157, 74);
+            font-size: -webkit-xxx-large;
+        }
+        p, ul, h2{
+            color: whitesmoke;
+            font-family: Helvetica, sans-serif;
+        }
+        .bar { 
+           fill: #E6E6FA; 
+           height: 21px; 
+           transition: fill .3s ease;           cursor: pointer; 
+           font-family: Helvetica, sans-serif; 
+           text { 
+               fill: #555; 
+           } 
+        } 
+        .chart:hover, 
+        .chart:focus { 
+           .bar { 
+               fill: #aaa; 
+           } 
+        } 
+        .bar:hover, 
+        .bar:focus { 
+        fill: rgb(187, 255, 0) !important; 
+        text { 
+            fill: rgb(137, 235, 73); 
+        } 
+        } 
+        </style>
+    </head>
+    <body>
+        <h1>Reporte final</h1>
+        <p> Las palabras utilizadas en el archivo son:  <p>
+        <ul style='list-style: none;'     >
+            <li> a : 18 </li>
+            <li> veces : 18 </li>
+            <li> que : 12 </li>
+            <li> me : 12 </li>
+            <li> y : 9 </li>
+            <li> te : 9 </li>
+            <li> la : 8 </li>
+            <li> ser : 8 </li>
+            <li> es : 7 </li>
+            <li> de : 7 </li>
+            <li> nadie : 6 </li>
+            <li> cuando : 6 </li>
+            <li> el : 6 </li>
+            <li> ve : 5 </li>
+            <li> por : 5 </li>
+            <li> no : 4 </li>
+            <li> quisiera : 4 </li>
+            <li> tu : 4 </li>
+            <li> solo : 3 </li>
+            <li> dificil : 3 </li>
+            <li> en : 3 </li>
+            <li> tan : 3 </li>
+            <li> soy : 3 </li>
+            <li> tuyo : 3 </li>
+            <li> tus : 3 </li>
+            <li> encierro : 2 </li>
+            <li> puertas : 2 </li>
+            <li> juro : 2 </li>
+            <li> darte : 2 </li>
+            <li> este : 2 </li>
+            <li> un : 2 </li>
+            <li> volteretas : 2 </li>
+            <li> puedo : 2 </li>
+            <li> eso : 2 </li>
+            <li> abiertas : 2 </li>
+            <li> vida : 2 </li>
+            <li> o : 2 </li>
+            <li> silencio : 2 </li>
+            <li> piel : 2 </li>
+            <li> cuento : 2 </li>
+            <li> mil : 2 </li>
+            <li> doy : 2 </li>
+            <li> elevo, : 2 </li>
+            <li> tras : 2 </li>
+            <li> viento : 2 </li>
+            <li> como : 2 </li>
+            <li> del : 2 </li>
+            <li> revisas : 1 </li>
+            <li> dejas : 1 </li>
+            <li> sangre : 1 </li>
+            <li> viento, : 1 </li>
+            <li> preguntado : 1 </li>
+            <li> ropa : 1 </li>
+            <li> momentos : 1 </li>
+            <li> vez, : 1 </li>
+            <li> para : 1 </li>
+            <li> sal : 1 </li>
+            <li> fiesta : 1 </li>
+            <li> cuerpo : 1 </li>
+            <li> miro : 1 </li>
+            <li> mundo : 1 </li>
+            <li> alguna : 1 </li>
+            <li> jamas : 1 </li>
+            <li> aunque : 1 </li>
+            <li> risa : 1 </li>
+            <li> debajo : 1 </li>
+            <li> entera, : 1 </li>
+            <li> sentir : 1 </li>
+            <li> sentira : 1 </li>
+            <li> vida, : 1 </li>
+            <li> sentiran : 1 </li>
+            <li> huellas : 1 </li>
+            <li> hay : 1 </li>
+            <li> las : 1 </li>
+            <li> mi : 1 </li>
+            <li> has : 1 </li>
+            <li> desnuda : 1 </li>
+            <li> reves : 1 </li>
+            <li> porque : 1 </li>
+            <li> sentir, : 1 </li>
+            <li> di : 1 </li>
+            <li> con : 1 </li>
+            <li> (ohh) : 1 </li>
+            <li> banas : 1 </li>
+            <li> escapa : 1 </li>
+            <li> pongo : 1 </li>
+            <li> prestas : 1 </li>
+            <li> envuelves : 1 </li>
+            <li> falles : 1 </li>
+            <li> escocerte : 1 </li>
+            <li> mar : 1 </li>
+            <li> aire : 1 </li>
+            <li> si : 1 </li>
+            <li> se : 1 </li>
+            <li> sea : 1 </li>
+            <li> ciento : 1 </li>
+            <li> todo : 1 </li>
+            <li> siento? : 1 </li>
+            <li> sueno : 1 </li>
+            <li> hilo : 1 </li>
+            <li> dificil? : 1 </li>
+            <li> pienso : 1 </li>
+            <li> olas, : 1 </li>
+            <li> siento : 1 </li>
+            <li> vivir? : 1 </li>
+            <li> siento, : 1 </li>
+            <li> siente : 1 </li>
+            <li> alas, : 1 </li>
+            <li> al : 1 </li>
+            <li> veces, : 1 </li>
+            <li> nunca : 1 </li>
+            <li> heridas : 1 </li>
+            <li> vivir, : 1 </li>
+            <li> compartirias : 1 </li>
+            <li> veras : 1 </li>
+            <li> esos : 1 </li>
+            <li> sal, : 1 </li>
+            <li> arena : 1 </li>
+            <li> limita : 1 </li>
+            <li> acaricia : 1 </li>
+            <li> verdad : 1 </li>
+        </ul>
+        <h2> El total de palabras fue: 287</h2>
+        <h1>Grafica de pastel</h1>
+        <svg height='20' width='20' viewBox='0 0 20 20' style='height:250px; width: 250px;'>; 
+            <circle r='10' cx='10' cy='10' fill='#EEE8AA' /> 
+            <circle r='5' cx='10' cy='10' fill='transparent' 
+                stroke='red' 
+                 stroke-width='10' 
+                stroke-dasharray='11.62 31.4'/> 
+            <circle r='5' cx='10' cy='10' fill='transparent' 
+                stroke='blue' 
+                 stroke-width='10' 
+                stroke-dasharray='9.65 31.4'/> 
+            <circle r='5' cx='10' cy='10' fill='transparent' 
+                stroke='pink' 
+                 stroke-width='10' 
+                stroke-dasharray='7.68 31.4'/> 
+            <circle r='5' cx='10' cy='10' fill='transparent' 
+                stroke='yellow' 
+                 stroke-width='10' 
+                stroke-dasharray='6.37 31.4'/> 
+            <circle r='5' cx='10' cy='10' fill='transparent' 
+                stroke='#DAA520' 
+                 stroke-width='10' 
+                stroke-dasharray='5.05 31.4'/> 
+            <circle r='5' cx='10' cy='10' fill='transparent' 
+                stroke='#ADFF2F' 
+                 stroke-width='10' 
+                stroke-dasharray='4.07 31.4'/> 
+            <circle r='5' cx='10' cy='10' fill='transparent' 
+                stroke='#CD5C5C' 
+                 stroke-width='10' 
+                stroke-dasharray='3.08 31.4'/> 
+            <circle r='5' cx='10' cy='10' fill='transparent' 
+                stroke='#4B0082' 
+                 stroke-width='10' 
+                stroke-dasharray='2.21 31.4'/> 
+            <circle r='5' cx='10' cy='10' fill='transparent' 
+                stroke='#800000' 
+                 stroke-width='10' 
+                stroke-dasharray='1.33 31.4'/> 
+            <circle r='5' cx='10' cy='10' fill='transparent' 
+                stroke='#40E0D0' 
+                 stroke-width='10' 
+                stroke-dasharray='0.57 31.4'/> 
+        </svg> 
+        <ul style='list-style: none;'> 
+            <li>a : 6.27%</li> 
+            <li>veces : 6.27%</li> 
+            <li>que : 4.18%</li> 
+            <li>me : 4.18%</li> 
+            <li>y : 3.14%</li> 
+            <li>te : 3.14%</li> 
+            <li>la : 2.79%</li> 
+            <li>ser : 2.79%</li> 
+            <li>es : 2.44%</li> 
+            <li>de : 2.44%</li> 
+            <li>Otras palabras: 62.37%</li>         </ul> 
+        <h1> Grafica de barras </h1> 
+        <figure> 
+          <svg class='chart' width='420' height='500' aria-labelledby='title' role='img'> 
+            <g class='bar'> 
+              <rect width='144' height='20' y='10'></rect> 
+            <text x='154' y='17' dy='.35em'>a</text> 
+            </g> 
+            <g class='bar'> 
+              <rect width='144' height='20' y='35'></rect> 
+            <text x='154' y='42' dy='.35em'>veces</text> 
+            </g> 
+            <g class='bar'> 
+              <rect width='96' height='20' y='60'></rect> 
+            <text x='106' y='67' dy='.35em'>que</text> 
+            </g> 
+            <g class='bar'> 
+              <rect width='96' height='20' y='85'></rect> 
+            <text x='106' y='92' dy='.35em'>me</text> 
+            </g> 
+            <g class='bar'> 
+              <rect width='72' height='20' y='110'></rect> 
+            <text x='82' y='117' dy='.35em'>y</text> 
+            </g> 
+            <g class='bar'> 
+              <rect width='72' height='20' y='135'></rect> 
+            <text x='82' y='142' dy='.35em'>te</text> 
+            </g> 
+            <g class='bar'> 
+              <rect width='64' height='20' y='160'></rect> 
+            <text x='74' y='167' dy='.35em'>la</text> 
+            </g> 
+            <g class='bar'> 
+              <rect width='64' height='20' y='185'></rect> 
+            <text x='74' y='192' dy='.35em'>ser</text> 
+            </g> 
+            <g class='bar'> 
+              <rect width='56' height='20' y='210'></rect> 
+            <text x='66' y='217' dy='.35em'>es</text> 
+            </g> 
+            <g class='bar'> 
+              <rect width='56' height='20' y='235'></rect> 
+            <text x='66' y='242' dy='.35em'>de</text> 
+            </g> 
+          </svg> 
+        </figure> 
+<?xml version='1.0' encoding='UTF-8' ?>  
+<svg width='500' height='500'> 
+null	<line x1='250.0' y1='30.0' x2='295.0' y2='70.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='70.0' x2='340.0' y2='110.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='110.0' x2='385.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='150.0' x2='430.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='430.0' y1='190.0' x2='475.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='475.0' y1='230.0' x2='520.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='430.0' y1='190.0' x2='385.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='430.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='430.0' y1='270.0' x2='475.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='430.0' y1='270.0' x2='385.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='270.0' x2='295.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='150.0' x2='340.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='385.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='430.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='430.0' y1='270.0' x2='385.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='270.0' x2='385.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='110.0' x2='295.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='150.0' x2='340.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='385.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='150.0' x2='250.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='70.0' x2='250.0' y2='110.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='110.0' x2='295.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='150.0' x2='340.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='385.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='430.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='150.0' x2='250.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='110.0' x2='205.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='150.0' x2='250.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='150.0' x2='160.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='30.0' x2='205.0' y2='70.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='70.0' x2='250.0' y2='110.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='110.0' x2='295.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='150.0' x2='340.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='385.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='430.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='150.0' x2='250.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='110.0' x2='205.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='150.0' x2='250.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='150.0' x2='160.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='190.0' x2='115.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='70.0' x2='160.0' y2='110.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='110.0' x2='205.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='150.0' x2='250.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='270.0' x2='295.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='270.0' x2='295.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='270.0' x2='295.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='310.0' x2='340.0' y2='350.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='270.0' x2='205.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='270.0' x2='205.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='270.0' x2='115.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='150.0' x2='160.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='270.0' x2='205.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='270.0' x2='205.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='190.0' x2='115.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='230.0' x2='70.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='70.0' y1='270.0' x2='115.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='110.0' x2='115.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='150.0' x2='160.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='270.0' x2='295.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='190.0' x2='115.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='150.0' x2='70.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='70.0' y1='190.0' x2='115.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='270.0' x2='205.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='270.0' x2='115.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='310.0' x2='160.0' y2='350.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='230.0' x2='70.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='70.0' y1='190.0' x2='25.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='25.0' y1='230.0' x2='70.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='70.0' y1='270.0' x2='115.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='70.0' y1='270.0' x2='25.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='25.0' y1='230.0' x2='-20.0' y2='270.0' stroke='black' stroke-width='2' /> 
+null	<circle cx='520.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='520.0' y='275.0' font-size='20' black>(ohh)</text>
+	<circle cx='475.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='475.0' y='235.0' font-size='20' white>a</text>
+	<circle cx='475.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='475.0' y='315.0' font-size='20' black>acaricia</text>
+	<circle cx='385.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='315.0' font-size='20' black>al</text>
+	<circle cx='430.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='430.0' y='275.0' font-size='20' white>aire</text>
+	<circle cx='295.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='315.0' font-size='20' black>arena</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>alguna</text>
+	<circle cx='385.0' cy='230.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='235.0' font-size='20' black>alas,</text>
+	<circle cx='430.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='430.0' y='195.0' font-size='20' white>abiertas</text>
+	<circle cx='385.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='315.0' font-size='20' black>ciento</text>
+	<circle cx='430.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='430.0' y='275.0' font-size='20' white>banas</text>
+	<circle cx='385.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='315.0' font-size='20' black>compartirias</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>con</text>
+	<circle cx='385.0' cy='230.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='235.0' font-size='20' black>como</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' black>cuento</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' black>darte</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>cuerpo</text>
+	<circle cx='340.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='195.0' font-size='20' white>cuando</text>
+	<circle cx='385.0' cy='150.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='155.0' font-size='20' black>aunque</text>
+	<circle cx='385.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='235.0' font-size='20' white>debajo</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' black>del</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' black>di</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>desnuda</text>
+	<circle cx='340.0' cy='190.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='195.0' font-size='20' black>dejas</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' black>dificil?</text>
+	<circle cx='250.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='195.0' font-size='20' white>doy</text>
+	<circle cx='295.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='155.0' font-size='20' white>dificil</text>
+	<circle cx='340.0' cy='110.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='115.0' font-size='20' white>de</text>
+	<circle cx='430.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='430.0' y='275.0' font-size='20' black>elevo,</text>
+	<circle cx='385.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='235.0' font-size='20' white>en</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' black>envuelves</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>entera,</text>
+	<circle cx='340.0' cy='190.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='195.0' font-size='20' black>encierro</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>escapa</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' black>esos</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>eso</text>
+	<circle cx='250.0' cy='190.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='195.0' font-size='20' black>escocerte</text>
+	<circle cx='295.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='155.0' font-size='20' white>es</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' black>falles</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' black>has</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>fiesta</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' black>heridas</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' black>huellas</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>hilo</text>
+	<circle cx='250.0' cy='190.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='195.0' font-size='20' black>hay</text>
+	<circle cx='160.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='195.0' font-size='20' white>juro</text>
+	<circle cx='205.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='155.0' font-size='20' white>jamas</text>
+	<circle cx='250.0' cy='110.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='115.0' font-size='20' white>este</text>
+	<circle cx='295.0' cy='70.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='75.0' font-size='20' white>el</text>
+	<circle cx='430.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='430.0' y='275.0' font-size='20' black>las</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' black>mar</text>
+	<circle cx='385.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='235.0' font-size='20' white>limita</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>mi</text>
+	<circle cx='340.0' cy='190.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='195.0' font-size='20' black>me</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' black>miro</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' black>mundo</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>momentos</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' black>nunca</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>no</text>
+	<circle cx='250.0' cy='190.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='195.0' font-size='20' black>nadie</text>
+	<circle cx='295.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='155.0' font-size='20' white>mil</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' black>olas,</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>para</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' black>pienso</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>pongo</text>
+	<circle cx='250.0' cy='190.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='195.0' font-size='20' black>piel</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' black>porque</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' black>prestas</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>preguntado</text>
+	<circle cx='115.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='235.0' font-size='20' white>puertas</text>
+	<circle cx='160.0' cy='190.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='195.0' font-size='20' black>puedo</text>
+	<circle cx='205.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='155.0' font-size='20' white>por</text>
+	<circle cx='250.0' cy='110.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='115.0' font-size='20' white>o</text>
+	<circle cx='295.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='315.0' font-size='20' black>reves</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>quisiera</text>
+	<circle cx='295.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='315.0' font-size='20' black>risa</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>ropa</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>revisas</text>
+	<circle cx='340.0' cy='350.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='355.0' font-size='20' black>sal,</text>
+	<circle cx='295.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='315.0' font-size='20' white>sangre</text>
+	<circle cx='205.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='315.0' font-size='20' white>sea</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' black>se</text>
+	<circle cx='205.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='315.0' font-size='20' black>sentir,</text>
+	<circle cx='115.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='315.0' font-size='20' black>sentiran</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' white>sentira</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>sentir</text>
+	<circle cx='250.0' cy='190.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='195.0' font-size='20' black>sal</text>
+	<circle cx='205.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='315.0' font-size='20' black>siente</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>si</text>
+	<circle cx='205.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='315.0' font-size='20' black>siento,</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' white>siento?</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' black>siento</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' white>solo</text>
+	<circle cx='115.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='315.0' font-size='20' black>sueno</text>
+	<circle cx='70.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='70.0' y='275.0' font-size='20' white>tan</text>
+	<circle cx='115.0' cy='230.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='235.0' font-size='20' black>soy</text>
+	<circle cx='160.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='195.0' font-size='20' white>silencio</text>
+	<circle cx='205.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='155.0' font-size='20' white>ser</text>
+	<circle cx='295.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='315.0' font-size='20' black>todo</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>tras</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' white>tus</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' black>tu</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' black>un</text>
+	<circle cx='115.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='235.0' font-size='20' white>ve</text>
+	<circle cx='160.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='195.0' font-size='20' white>tuyo</text>
+	<circle cx='205.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='315.0' font-size='20' white>veces,</text>
+	<circle cx='160.0' cy='350.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='355.0' font-size='20' black>verdad</text>
+	<circle cx='115.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='315.0' font-size='20' white>vez,</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' black>veras</text>
+	<circle cx='70.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='70.0' y='275.0' font-size='20' white>vida,</text>
+	<circle cx='115.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='235.0' font-size='20' white>vida</text>
+	<circle cx='115.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='315.0' font-size='20' black>viento,</text>
+	<circle cx='25.0' cy='310.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='25.0' y='315.0' font-size='20' black>vivir?</text>
+	<circle cx='70.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='70.0' y='275.0' font-size='20' white>vivir,</text>
+	<circle cx='-20.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='-20.0' y='275.0' font-size='20' white>y</text>
+	<circle cx='25.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='25.0' y='235.0' font-size='20' white>volteretas</text>
+	<circle cx='70.0' cy='190.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='70.0' y='195.0' font-size='20' black>viento</text>
+	<circle cx='115.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='155.0' font-size='20' white>veces</text>
+	<circle cx='160.0' cy='110.0' r='15.0' fill='red' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='115.0' font-size='20' black>te</text>
+	<circle cx='205.0' cy='70.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='75.0' font-size='20' white>que</text>
+	<circle cx='250.0' cy='30.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='35.0' font-size='20' white>la</text>
+</svg><?xml version='1.0' encoding='UTF-8' ?>  
+<svg width='500' height='500'> 
+null	<line x1='250.0' y1='30.0' x2='295.0' y2='70.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='70.0' x2='340.0' y2='110.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='110.0' x2='385.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='150.0' x2='430.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='430.0' y1='190.0' x2='475.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='475.0' y1='230.0' x2='520.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='430.0' y1='190.0' x2='385.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='430.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='430.0' y1='270.0' x2='475.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='430.0' y1='270.0' x2='385.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='270.0' x2='295.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='150.0' x2='340.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='385.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='430.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='430.0' y1='270.0' x2='385.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='270.0' x2='385.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='110.0' x2='295.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='150.0' x2='340.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='385.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='430.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='150.0' x2='250.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='70.0' x2='250.0' y2='110.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='110.0' x2='295.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='150.0' x2='340.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='385.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='270.0' x2='205.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='150.0' x2='250.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='270.0' x2='295.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='270.0' x2='205.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='110.0' x2='205.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='150.0' x2='250.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='270.0' x2='385.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='270.0' x2='295.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='270.0' x2='295.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='270.0' x2='205.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='270.0' x2='115.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='150.0' x2='160.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='270.0' x2='295.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='270.0' x2='205.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='190.0' x2='115.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='270.0' x2='205.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='270.0' x2='115.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='230.0' x2='70.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='30.0' x2='205.0' y2='70.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='70.0' x2='250.0' y2='110.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='110.0' x2='295.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='150.0' x2='340.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='385.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='385.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='340.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='270.0' x2='205.0' y2='310.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='150.0' x2='250.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='110.0' x2='205.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='150.0' x2='250.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='150.0' x2='160.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='190.0' x2='115.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='70.0' x2='160.0' y2='110.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='110.0' x2='205.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='150.0' x2='250.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='295.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='295.0' y1='230.0' x2='340.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='250.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='150.0' x2='160.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='110.0' x2='115.0' y2='150.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='150.0' x2='160.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='190.0' x2='205.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='250.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='205.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='160.0' y1='190.0' x2='115.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='230.0' x2='70.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='150.0' x2='70.0' y2='190.0' stroke='black' stroke-width='2' /> 
+	<line x1='70.0' y1='190.0' x2='115.0' y2='230.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='230.0' x2='160.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='115.0' y1='230.0' x2='70.0' y2='270.0' stroke='black' stroke-width='2' /> 
+	<line x1='70.0' y1='190.0' x2='25.0' y2='230.0' stroke='black' stroke-width='2' /> 
+null	<circle cx='520.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='520.0' y='275.0' font-size='20' white>(ohh)</text>
+	<circle cx='475.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='475.0' y='235.0' font-size='20' white>a</text>
+	<circle cx='475.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='475.0' y='315.0' font-size='20' white>acaricia</text>
+	<circle cx='385.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='315.0' font-size='20' white>al</text>
+	<circle cx='430.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='430.0' y='275.0' font-size='20' white>aire</text>
+	<circle cx='295.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='315.0' font-size='20' white>arena</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>alguna</text>
+	<circle cx='385.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='235.0' font-size='20' white>alas,</text>
+	<circle cx='430.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='430.0' y='195.0' font-size='20' white>abiertas</text>
+	<circle cx='385.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='315.0' font-size='20' white>ciento</text>
+	<circle cx='430.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='430.0' y='275.0' font-size='20' white>banas</text>
+	<circle cx='385.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='315.0' font-size='20' white>compartirias</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>con</text>
+	<circle cx='385.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='235.0' font-size='20' white>como</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>cuento</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>darte</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>cuerpo</text>
+	<circle cx='340.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='195.0' font-size='20' white>cuando</text>
+	<circle cx='385.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='155.0' font-size='20' white>aunque</text>
+	<circle cx='430.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='430.0' y='275.0' font-size='20' white>debajo</text>
+	<circle cx='385.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='235.0' font-size='20' white>dejas</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>di</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>desnuda</text>
+	<circle cx='340.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='195.0' font-size='20' white>del</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>dificil?</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>doy</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>elevo,</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>en</text>
+	<circle cx='250.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='195.0' font-size='20' white>el</text>
+	<circle cx='295.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='155.0' font-size='20' white>dificil</text>
+	<circle cx='340.0' cy='110.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='115.0' font-size='20' white>de</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>envuelves</text>
+	<circle cx='385.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='235.0' font-size='20' white>entera,</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>escapa</text>
+	<circle cx='205.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='315.0' font-size='20' white>esos</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>eso</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>escocerte</text>
+	<circle cx='340.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='195.0' font-size='20' white>es</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>falles</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>has</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>fiesta</text>
+	<circle cx='295.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='315.0' font-size='20' white>heridas</text>
+	<circle cx='205.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='315.0' font-size='20' white>huellas</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>hilo</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' white>juro</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>jamas</text>
+	<circle cx='250.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='195.0' font-size='20' white>hay</text>
+	<circle cx='295.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='155.0' font-size='20' white>este</text>
+	<circle cx='385.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='315.0' font-size='20' white>las</text>
+	<circle cx='295.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='315.0' font-size='20' white>mar</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>limita</text>
+	<circle cx='295.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='315.0' font-size='20' white>mi</text>
+	<circle cx='205.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='315.0' font-size='20' white>miro</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>mil</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>me</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>mundo</text>
+	<circle cx='115.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='315.0' font-size='20' white>nunca</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' white>no</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>nadie</text>
+	<circle cx='250.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='195.0' font-size='20' white>momentos</text>
+	<circle cx='295.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='315.0' font-size='20' white>olas,</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>para</text>
+	<circle cx='205.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='315.0' font-size='20' white>pienso</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' white>pongo</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>piel</text>
+	<circle cx='205.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='315.0' font-size='20' white>porque</text>
+	<circle cx='115.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='315.0' font-size='20' white>prestas</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' white>preguntado</text>
+	<circle cx='70.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='70.0' y='275.0' font-size='20' white>puertas</text>
+	<circle cx='115.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='235.0' font-size='20' white>puedo</text>
+	<circle cx='160.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='195.0' font-size='20' white>por</text>
+	<circle cx='205.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='155.0' font-size='20' white>o</text>
+	<circle cx='250.0' cy='110.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='115.0' font-size='20' white>la</text>
+	<circle cx='295.0' cy='70.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='75.0' font-size='20' white>encierro</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>reves</text>
+	<circle cx='385.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='385.0' y='235.0' font-size='20' white>quisiera</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>risa</text>
+	<circle cx='205.0' cy='310.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='315.0' font-size='20' white>sal,</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>sal</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>ropa</text>
+	<circle cx='340.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='195.0' font-size='20' white>revisas</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>sea</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>se</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>sentir,</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' white>sentiran</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>sentira</text>
+	<circle cx='250.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='195.0' font-size='20' white>sentir</text>
+	<circle cx='295.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='155.0' font-size='20' white>sangre</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>siente</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>si</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>siento,</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' white>silencio</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>siento?</text>
+	<circle cx='250.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='195.0' font-size='20' white>siento</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>soy</text>
+	<circle cx='115.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='235.0' font-size='20' white>tan</text>
+	<circle cx='160.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='195.0' font-size='20' white>sueno</text>
+	<circle cx='205.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='155.0' font-size='20' white>solo</text>
+	<circle cx='250.0' cy='110.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='115.0' font-size='20' white>ser</text>
+	<circle cx='340.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='340.0' y='275.0' font-size='20' white>todo</text>
+	<circle cx='295.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='295.0' y='235.0' font-size='20' white>tras</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>tus</text>
+	<circle cx='250.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='195.0' font-size='20' white>tu</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>un</text>
+	<circle cx='160.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='195.0' font-size='20' white>ve</text>
+	<circle cx='205.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='155.0' font-size='20' white>tuyo</text>
+	<circle cx='250.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='275.0' font-size='20' white>veces,</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' white>verdad</text>
+	<circle cx='205.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='235.0' font-size='20' white>veras</text>
+	<circle cx='70.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='70.0' y='275.0' font-size='20' white>vida,</text>
+	<circle cx='115.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='235.0' font-size='20' white>vida</text>
+	<circle cx='160.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='195.0' font-size='20' white>vez,</text>
+	<circle cx='160.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='275.0' font-size='20' white>viento,</text>
+	<circle cx='70.0' cy='270.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='70.0' y='275.0' font-size='20' white>vivir?</text>
+	<circle cx='115.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='235.0' font-size='20' white>vivir,</text>
+	<circle cx='25.0' cy='230.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='25.0' y='235.0' font-size='20' white>y</text>
+	<circle cx='70.0' cy='190.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='70.0' y='195.0' font-size='20' white>volteretas</text>
+	<circle cx='115.0' cy='150.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='115.0' y='155.0' font-size='20' white>viento</text>
+	<circle cx='160.0' cy='110.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='160.0' y='115.0' font-size='20' white>veces</text>
+	<circle cx='205.0' cy='70.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='205.0' y='75.0' font-size='20' white>te</text>
+	<circle cx='250.0' cy='30.0' r='15.0' fill='black' stroke='black' stroke-width='2'/>
+	<text x='250.0' y='35.0' font-size='20' white>que</text>
+null	<text x='505.0' y='255.0' font-size='20' >0/0</text>
+	<text x='460.0' y='215.0' font-size='20' >1/1</text>
+	<text x='460.0' y='295.0' font-size='20' >0/0</text>
+	<text x='370.0' y='295.0' font-size='20' >0/0</text>
+	<text x='415.0' y='255.0' font-size='20' >1/0</text>
+	<text x='280.0' y='295.0' font-size='20' >0/0</text>
+	<text x='325.0' y='255.0' font-size='20' >1/-1</text>
+	<text x='370.0' y='215.0' font-size='20' >2/0</text>
+	<text x='415.0' y='175.0' font-size='20' >3/-1</text>
+	<text x='370.0' y='295.0' font-size='20' >0/0</text>
+	<text x='415.0' y='255.0' font-size='20' >1/-1</text>
+	<text x='370.0' y='295.0' font-size='20' >0/0</text>
+	<text x='325.0' y='255.0' font-size='20' >1/1</text>
+	<text x='370.0' y='215.0' font-size='20' >2/0</text>
+	<text x='325.0' y='255.0' font-size='20' >0/0</text>
+	<text x='235.0' y='255.0' font-size='20' >0/0</text>
+	<text x='280.0' y='215.0' font-size='20' >1/0</text>
+	<text x='325.0' y='175.0' font-size='20' >3/1</text>
+	<text x='370.0' y='135.0' font-size='20' >4/0</text>
+	<text x='415.0' y='255.0' font-size='20' >0/0</text>
+	<text x='370.0' y='215.0' font-size='20' >1/1</text>
+	<text x='235.0' y='255.0' font-size='20' >0/0</text>
+	<text x='280.0' y='215.0' font-size='20' >1/-1</text>
+	<text x='325.0' y='175.0' font-size='20' >2/0</text>
+	<text x='325.0' y='255.0' font-size='20' >0/0</text>
+	<text x='280.0' y='215.0' font-size='20' >1/1</text>
+	<text x='235.0' y='255.0' font-size='20' >0/0</text>
+	<text x='190.0' y='215.0' font-size='20' >1/1</text>
+	<text x='235.0' y='175.0' font-size='20' >2/0</text>
+	<text x='280.0' y='135.0' font-size='20' >3/0</text>
+	<text x='325.0' y='95.0' font-size='20' >5/1</text>
+	<text x='325.0' y='255.0' font-size='20' >0/0</text>
+	<text x='370.0' y='215.0' font-size='20' >1/-1</text>
+	<text x='325.0' y='255.0' font-size='20' >0/0</text>
+	<text x='190.0' y='295.0' font-size='20' >0/0</text>
+	<text x='235.0' y='255.0' font-size='20' >1/-1</text>
+	<text x='280.0' y='215.0' font-size='20' >2/-1</text>
+	<text x='325.0' y='175.0' font-size='20' >3/-1</text>
+	<text x='325.0' y='255.0' font-size='20' >0/0</text>
+	<text x='235.0' y='255.0' font-size='20' >0/0</text>
+	<text x='280.0' y='215.0' font-size='20' >1/0</text>
+	<text x='280.0' y='295.0' font-size='20' >0/0</text>
+	<text x='190.0' y='295.0' font-size='20' >0/0</text>
+	<text x='235.0' y='255.0' font-size='20' >1/0</text>
+	<text x='145.0' y='255.0' font-size='20' >0/0</text>
+	<text x='190.0' y='215.0' font-size='20' >2/1</text>
+	<text x='235.0' y='175.0' font-size='20' >3/-1</text>
+	<text x='280.0' y='135.0' font-size='20' >4/0</text>
+	<text x='370.0' y='295.0' font-size='20' >0/0</text>
+	<text x='280.0' y='295.0' font-size='20' >0/0</text>
+	<text x='325.0' y='255.0' font-size='20' >1/0</text>
+	<text x='280.0' y='295.0' font-size='20' >0/0</text>
+	<text x='190.0' y='295.0' font-size='20' >0/0</text>
+	<text x='235.0' y='255.0' font-size='20' >1/0</text>
+	<text x='280.0' y='215.0' font-size='20' >2/0</text>
+	<text x='235.0' y='255.0' font-size='20' >0/0</text>
+	<text x='100.0' y='295.0' font-size='20' >0/0</text>
+	<text x='145.0' y='255.0' font-size='20' >1/-1</text>
+	<text x='190.0' y='215.0' font-size='20' >2/-1</text>
+	<text x='235.0' y='175.0' font-size='20' >3/0</text>
+	<text x='280.0' y='295.0' font-size='20' >0/0</text>
+	<text x='235.0' y='255.0' font-size='20' >1/1</text>
+	<text x='190.0' y='295.0' font-size='20' >0/0</text>
+	<text x='145.0' y='255.0' font-size='20' >1/1</text>
+	<text x='190.0' y='215.0' font-size='20' >2/0</text>
+	<text x='190.0' y='295.0' font-size='20' >0/0</text>
+	<text x='100.0' y='295.0' font-size='20' >0/0</text>
+	<text x='145.0' y='255.0' font-size='20' >1/0</text>
+	<text x='55.0' y='255.0' font-size='20' >0/0</text>
+	<text x='100.0' y='215.0' font-size='20' >2/1</text>
+	<text x='145.0' y='175.0' font-size='20' >3/0</text>
+	<text x='190.0' y='135.0' font-size='20' >4/0</text>
+	<text x='235.0' y='95.0' font-size='20' >5/0</text>
+	<text x='280.0' y='55.0' font-size='20' >6/0</text>
+	<text x='325.0' y='255.0' font-size='20' >0/0</text>
+	<text x='370.0' y='215.0' font-size='20' >1/-1</text>
+	<text x='325.0' y='255.0' font-size='20' >0/0</text>
+	<text x='190.0' y='295.0' font-size='20' >0/0</text>
+	<text x='235.0' y='255.0' font-size='20' >1/-1</text>
+	<text x='280.0' y='215.0' font-size='20' >2/-1</text>
+	<text x='325.0' y='175.0' font-size='20' >3/-1</text>
+	<text x='235.0' y='255.0' font-size='20' >0/0</text>
+	<text x='280.0' y='215.0' font-size='20' >1/-1</text>
+	<text x='235.0' y='255.0' font-size='20' >0/0</text>
+	<text x='145.0' y='255.0' font-size='20' >0/0</text>
+	<text x='190.0' y='215.0' font-size='20' >1/0</text>
+	<text x='235.0' y='175.0' font-size='20' >2/0</text>
+	<text x='280.0' y='135.0' font-size='20' >4/1</text>
+	<text x='235.0' y='255.0' font-size='20' >0/0</text>
+	<text x='280.0' y='215.0' font-size='20' >1/-1</text>
+	<text x='235.0' y='255.0' font-size='20' >0/0</text>
+	<text x='145.0' y='255.0' font-size='20' >0/0</text>
+	<text x='190.0' y='215.0' font-size='20' >1/0</text>
+	<text x='235.0' y='175.0' font-size='20' >2/0</text>
+	<text x='190.0' y='215.0' font-size='20' >0/0</text>
+	<text x='100.0' y='215.0' font-size='20' >0/0</text>
+	<text x='145.0' y='175.0' font-size='20' >1/0</text>
+	<text x='190.0' y='135.0' font-size='20' >3/1</text>
+	<text x='235.0' y='95.0' font-size='20' >5/1</text>
+	<text x='325.0' y='255.0' font-size='20' >0/0</text>
+	<text x='280.0' y='215.0' font-size='20' >1/1</text>
+	<text x='190.0' y='215.0' font-size='20' >0/0</text>
+	<text x='235.0' y='175.0' font-size='20' >2/1</text>
+	<text x='190.0' y='215.0' font-size='20' >0/0</text>
+	<text x='145.0' y='175.0' font-size='20' >1/1</text>
+	<text x='190.0' y='135.0' font-size='20' >3/1</text>
+	<text x='235.0' y='255.0' font-size='20' >0/0</text>
+	<text x='145.0' y='255.0' font-size='20' >0/0</text>
+	<text x='190.0' y='215.0' font-size='20' >1/0</text>
+	<text x='55.0' y='255.0' font-size='20' >0/0</text>
+	<text x='100.0' y='215.0' font-size='20' >1/-1</text>
+	<text x='145.0' y='175.0' font-size='20' >2/0</text>
+	<text x='145.0' y='255.0' font-size='20' >0/0</text>
+	<text x='55.0' y='255.0' font-size='20' >0/0</text>
+	<text x='100.0' y='215.0' font-size='20' >1/0</text>
+	<text x='10.0' y='215.0' font-size='20' >0/0</text>
+	<text x='55.0' y='175.0' font-size='20' >2/1</text>
+	<text x='100.0' y='135.0' font-size='20' >3/0</text>
+	<text x='145.0' y='95.0' font-size='20' >4/0</text>
+	<text x='190.0' y='55.0' font-size='20' >6/1</text>
+	<text x='235.0' y='15.0' font-size='20' >7/0</text>
+</svg>    </body>

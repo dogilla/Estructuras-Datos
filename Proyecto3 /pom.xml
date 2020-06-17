@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>mx.unam.ciencias.edd.proyecto2</groupId>
+  <groupId>mx.unam.ciencias.edd.proyecto3</groupId>
   <artifactId>proyecto</artifactId>
   <version>EDD</version>
   <packaging>jar</packaging>
 
-  <name>Proyecto 2</name>
+  <name>Proyecto 3</name>
   <description>
-    Proyecto 2: Graficador SVG.
+    Proyecto 3: Reporte HTML
   </description>
   <organization>
     <name>Mario Alexis Guzmán Mosco</name>
@@ -43,7 +43,7 @@
 	<configuration>
 	  <archive>
 	    <manifest>
-	      <mainClass>mx.unam.ciencias.edd.proyecto2.Main</mainClass>
+	      <mainClass>mx.unam.ciencias.edd.proyecto3.Main</mainClass>
 	    </manifest>
 	  </archive>
 	</configuration>
@@ -63,7 +63,7 @@
 
     </plugins>
 
-    <finalName>proyecto2</finalName>
+    <finalName>proyecto3</finalName>
   </build>
 
   <reporting>
